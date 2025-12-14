@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg, #f5f7fb, #e9eef5);
+  color: #1f2937;
+}
+
+/* Balanced page padding */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 32px 20px;
+}
+
+/* ✅ Reduced width, still desktop-friendly */
+.card {
+  width: 100%;
+  max-width: 880px;   /* 👈 key change (from 1100px) */
+  background: #ffffff;
+  padding: 34px;
+  border-radius: 14px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #0f172a;
+  font-size: 30px;    /* ⬆ slightly bigger */
+}
+
+.subtitle {
+  text-align: center;
+  color: #475569;
+  margin-bottom: 30px;
+  font-size: 15px;    /* ⬆ */
+}
+
+.form label {
+  font-size: 14px;    /* ⬆ */
+  font-weight: 600;
+  color: #334155;
+}
+
+/* Inputs feel less stretched + more readable */
+.form input,
+.form select {
+  width: 100%;
+  padding: 12px 14px;   /* ⬆ */
+  margin: 8px 0 18px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  font-size: 15px;      /* ⬆ */
+}
+
+.form input:focus,
+.form select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  font-size: 16px;      /* ⬆ */
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;      /* ⬆ */
+  color: #2563eb;
+}
+
+.hidden {
+  display: none;
+}
+
+.results {
+  margin-top: 36px;
+}
+
+.results h2 {
+  margin-bottom: 16px;
+  color: #0f172a;
+  font-size: 22px;      /* ⬆ */
+}
+
+/* Metrics spacing refined */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.metric {
+  background: #f8fafc;
+  padding: 16px;        /* ⬆ */
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.metric span {
+  font-size: 13px;      /* ⬆ */
+  color: #64748b;
+}
+
+.metric strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 18px;      /* ⬆ */
+  color: #0f172a;
+}
+
+/* Raw output more readable */
+pre {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 14px;      /* ⬆ */
+  line-height: 1.55;
+  max-height: 300px;
+  overflow-x: auto;
+  overflow-y: auto;
+  white-space: pre;
+}
