@@ -15,10 +15,18 @@ Clean, user-friendly interface
 
 Raw iperf output for transparency
 
-📸 Screenshots
-TCP Mode – Throughput Visualization
+## 📸 Screenshots
 
-UDP Mode – Jitter & Packet Loss
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pun33th45/iperf-web-performance-tool/92bf0362d867335d034269cc3f189ac95db5c7ae/iperf_web_ui/screenshots/Tool%20UI%20%26%20interface.png" width="48%" />
+  <img src="https://raw.githubusercontent.com/pun33th45/iperf-web-performance-tool/92bf0362d867335d034269cc3f189ac95db5c7ae/iperf_web_ui/screenshots/Results%20and%20graph.png" width="48%" />
+</p>
+
+<p align="center">
+  <b>Tool UI & Interface</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Results & Throughput Graph</b>
+</p>
+
 
 🧱 Tech Stack
 
